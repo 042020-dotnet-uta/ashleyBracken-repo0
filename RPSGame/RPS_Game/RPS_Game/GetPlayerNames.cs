@@ -6,6 +6,7 @@ namespace RPS_Game
 {
      class GetPlayerNames
     {
+        #region variable declaration an assignment
         private Player player1 = new Player();
         private Player player2 = new Player();
         Game game;
@@ -14,7 +15,9 @@ namespace RPS_Game
             this.game = game;
         }
         private string player;
-      public void GetNames()
+        #endregion
+        #region getNames method
+        public void GetNames()
         {
             Console.WriteLine("Enter Player 1 Name");
             player = Console.ReadLine();
@@ -26,5 +29,6 @@ namespace RPS_Game
             game.p2 = player2;
 
         }
+        #endregion
     }
 }
