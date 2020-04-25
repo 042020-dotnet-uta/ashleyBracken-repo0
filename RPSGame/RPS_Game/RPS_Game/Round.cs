@@ -10,6 +10,6 @@ namespace RPS_Game
 
         public string p1Choice { get; set; }
         public string p2Choice { get; set; }
-        public Player Winner { get => winner; set => winner = value; }
+        public Player Winner { get => winner; set => winner = value; } 
     }
 }

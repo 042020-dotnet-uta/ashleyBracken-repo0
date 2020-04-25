@@ -12,9 +12,5 @@ namespace RPS_Game
 			get {return _Name;}
 			set { _Name = value; }
 		}
-
-
-
-
 	}
 }
