@@ -8,7 +8,11 @@ namespace RPS_Game
     {
         private Player player1 = new Player();
         private Player player2 = new Player();
-        private Game game = new Game();
+        Game game;
+        internal GetPlayerNames(Game game) 
+        {
+            this.game = game;
+        }
         private string player;
       public void GetNames()
         {
@@ -18,6 +22,8 @@ namespace RPS_Game
             Console.WriteLine("Enter Player 2 Name");
             player = Console.ReadLine();
             player2.Name = player;
+            game.p1 = player1;
+            game.p2 = player2;
 
         }
     }
