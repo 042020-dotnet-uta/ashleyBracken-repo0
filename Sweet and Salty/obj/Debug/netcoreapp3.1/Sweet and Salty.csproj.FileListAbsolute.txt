@@ -1,0 +1,12 @@
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.exe
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.deps.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.runtimeconfig.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.runtimeconfig.dev.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\bin\Debug\netcoreapp3.1\Sweet and Salty.pdb
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.csproj.CoreCompileInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.AssemblyInfoInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.AssemblyInfo.cs
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.pdb
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Sweet and Salty\obj\Debug\netcoreapp3.1\Sweet and Salty.genruntimeconfig.cache
