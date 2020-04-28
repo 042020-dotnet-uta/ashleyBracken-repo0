@@ -4,10 +4,48 @@ C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Project 0.runtimeconfig.dev.json
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Project 0.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Project 0.pdb
-C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csprojAssemblyReference.cache
-C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CoreCompileInputs.cache
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.AssemblyInfoInputs.cache
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.AssemblyInfo.cs
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.pdb
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.genruntimeconfig.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CoreCompileInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CopyComplete
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csprojAssemblyReference.cache
