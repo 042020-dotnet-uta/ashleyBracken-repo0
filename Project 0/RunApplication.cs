@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DataAccess;
+using DataAccess;       
 using Project_0.Models;
 
 namespace DataAccess
@@ -9,7 +9,6 @@ namespace DataAccess
     class RunApplication 
     {
          
-
 
     }
 }
