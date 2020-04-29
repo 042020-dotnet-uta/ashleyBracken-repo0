@@ -5,7 +5,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess
 {
-    class AccessCustomer
+    public class AccessCustomer
     {
+        public Customer nCust {get;set;}
+      public  void AddCusToDataBase()
+        {
+            using (var db = new DataBaseContext())
+            {
+
+                db.Add(nCust);
+                db.SaveChanges();
+            }
+        }
+
     }
 }

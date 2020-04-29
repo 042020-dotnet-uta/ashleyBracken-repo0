@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using Project_0.Models;
+
 
 
 namespace DataAccess 
 {
-   public class DataBaseSession : DbContext
+   public class DataBaseContext : DbContext
     {
        
       public DbSet<Customer> Customers { get;set;}

@@ -46,6 +46,10 @@ C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CoreCompileInputs.cache
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CopyComplete
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csprojAssemblyReference.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\DataAccess.exe
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CoreCompileInputs.cache

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Project_0.Models
+namespace DataAccess
 {
     public class Customer
     {

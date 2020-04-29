@@ -1425,8 +1425,7 @@
       },
       "DataAccess/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3",
-          "Project 0": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3"
         },
         "runtime": {
           "DataAccess.dll": {}
@@ -1434,6 +1433,7 @@
       },
       "Project 0/1.0.0": {
         "dependencies": {
+          "DataAccess": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.3"
         },
         "runtime": {
