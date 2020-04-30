@@ -1,19 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DataAccess;
+using Project_0.Models;
 
 
 namespace Project_0
 {
-    internal class AddCustomer 
+   public static class AddCustomer
     {
-        Customer newCustomer = new Customer();
-        AccessCustomer newCust = new AccessCustomer();
-        private string firstNameHolder;
-        private string lastNameHolder;
-        private string custID;
-       internal void NewCustomer()
+        private static Customer newCustomer = new Customer();
+        public static Customer nCust { get; set; }
+        private static string firstNameHolder;
+        private static string lastNameHolder;
+        private static string custID;
+       public static void NewCustomer()
         {
             while (string.IsNullOrWhiteSpace(firstNameHolder) )
             {
@@ -29,7 +29,7 @@ namespace Project_0
             newCustomer.LastName = lastNameHolder;
             custID = firstNameHolder + lastNameHolder;
             newCustomer.CustomerID = custID;
-            newCust.nCust = newCustomer;
+            nCust = newCustomer;
             
         }
 

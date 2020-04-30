@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-
-
+using Project_0.Models;
+using System.Linq;
 
 namespace DataAccess 
 {

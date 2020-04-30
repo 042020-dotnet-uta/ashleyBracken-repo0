@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\idont\\Desktop\\WorkStuffs\\RevatureRepo\\ashleyBracken-repo0\\Project 0\\Project 0.csproj": {
+                "projectPath": "C:\\Users\\idont\\Desktop\\WorkStuffs\\RevatureRepo\\ashleyBracken-repo0\\Project 0\\Project 0.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -90,11 +94,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\idont\\Desktop\\WorkStuffs\\RevatureRepo\\ashleyBracken-repo0\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\idont\\Desktop\\WorkStuffs\\RevatureRepo\\ashleyBracken-repo0\\DataAccess\\DataAccess.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

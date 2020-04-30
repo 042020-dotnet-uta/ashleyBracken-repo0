@@ -2,18 +2,20 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using Project_0;
+using System.Linq;
 
 namespace DataAccess
 {
-    public class AccessCustomer
+    internal class AccessCustomer
     {
-        public Customer nCust {get;set;}
-      public  void AddCusToDataBase()
+    
+      internal  void AddCusToDataBase()
         {
             using (var db = new DataBaseContext())
             {
-
-                db.Add(nCust);
+                
+                db.Add(AddCustomer.nCust);
                 db.SaveChanges();
             }
         }

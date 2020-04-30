@@ -1,25 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using DataAccess;
+
 
 
 namespace Project_0
 {
-    class RunApplication 
+   public  class RunApplication 
     {
         private string add;
         private string existing;
         private string custInput;
-
-        internal void RunApp()
+        
+        public void RunApp()
         {
+            
             GetCustStatus();
             if (custInput == add)
             {
                 Console.WriteLine("You have entered ADD");
-                AddCustomer newCust = new AddCustomer();
-                newCust.NewCustomer();
+                AddCustomer.NewCustomer();
                 
             }
             else if (custInput == existing)

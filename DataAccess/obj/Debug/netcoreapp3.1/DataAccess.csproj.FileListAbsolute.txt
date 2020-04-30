@@ -50,3 +50,6 @@ C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\bi
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\bin\Debug\netcoreapp3.1\Project 0.exe
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\bin\Debug\netcoreapp3.1\Project 0.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\DataAccess\bin\Debug\netcoreapp3.1\Project 0.pdb
