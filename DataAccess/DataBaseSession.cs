@@ -17,7 +17,6 @@ namespace DataAccess
         public DbSet<Store> Stores { get; set; }
         public DbSet<Potions> Potions { get; set; }
         public DbSet<Inventory> Inventory { get; set; }
-        public DbSet<StoreInventory> StoreInventories { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {

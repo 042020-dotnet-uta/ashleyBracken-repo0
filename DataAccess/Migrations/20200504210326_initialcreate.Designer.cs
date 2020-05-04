@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(DataBaseContext))]
-    [Migration("20200504160703_initialcreate")]
+    [Migration("20200504210326_initialcreate")]
     partial class initialcreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,7 +49,17 @@ namespace DataAccess.Migrations
                     b.Property<int>("PotionQuantity")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int?>("PotionsPotionID")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("StoreID")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("InventoryID");
+
+                    b.HasIndex("PotionsPotionID");
+
+                    b.HasIndex("StoreID");
 
                     b.ToTable("Inventory");
                 });
@@ -121,32 +131,11 @@ namespace DataAccess.Migrations
                     b.ToTable("Stores");
                 });
 
-            modelBuilder.Entity("Project_0.Models.StoreInventory", b =>
+            modelBuilder.Entity("Project_0.Models.Inventory", b =>
                 {
-                    b.Property<int>("StoreInventoryID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("InventoryID")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("StoreID")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("StoreInventoryID");
-
-                    b.HasIndex("InventoryID");
-
-                    b.HasIndex("StoreID");
-
-                    b.ToTable("StoreInventories");
-                });
-
-            modelBuilder.Entity("Project_0.Models.Order", b =>
-                {
-                    b.HasOne("Project_0.Models.Customer", "Customer")
+                    b.HasOne("Project_0.Models.Potions", "Potions")
                         .WithMany()
-                        .HasForeignKey("CustomerID");
+                        .HasForeignKey("PotionsPotionID");
 
                     b.HasOne("Project_0.Models.Store", "Store")
                         .WithMany()
@@ -155,13 +144,11 @@ namespace DataAccess.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Project_0.Models.StoreInventory", b =>
+            modelBuilder.Entity("Project_0.Models.Order", b =>
                 {
-                    b.HasOne("Project_0.Models.Inventory", "Inventory")
+                    b.HasOne("Project_0.Models.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("InventoryID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerID");
 
                     b.HasOne("Project_0.Models.Store", "Store")
                         .WithMany()

@@ -49,3 +49,4 @@ C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CopyComplete
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csproj.CoreCompileInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Project 0\obj\Debug\netcoreapp3.1\Project 0.csprojAssemblyReference.cache

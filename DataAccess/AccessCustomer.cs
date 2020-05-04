@@ -5,8 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Project_0;
 using Project_0.Models;
 using System.Linq;
-using static System.Net.Mime.MediaTypeNames;
-using System.Reflection;
+
 
 namespace DataAccess
 {
@@ -25,6 +24,7 @@ namespace DataAccess
             {
                 db.Add(AddCustomer.nCust);
                 db.SaveChanges();
+                RunApplication.RunApp();
             }
         }
         /// <summary>
