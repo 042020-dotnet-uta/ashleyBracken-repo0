@@ -7,8 +7,6 @@ namespace Project_0
     {
         static void Main(string[] args)
         {
-            RunApplication runApp = new RunApplication();
-            runApp.RunApp();
         }
     }
 }

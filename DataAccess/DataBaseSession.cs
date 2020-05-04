@@ -6,17 +6,24 @@ using System.Linq;
 
 namespace DataAccess 
 {
-   public class DataBaseContext : DbContext
+    public class DataBaseContext : DbContext
     {
-       
-      public DbSet<Customer> Customers { get;set;}
-      public DbSet<Store> Store { get; set; }
+        public DataBaseContext()
+        { }
+        public DataBaseContext(DbContextOptions<DataBaseContext> options) : base(options) { }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder options)
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Order> Orders {get;set;}
+        public DbSet<Store> Stores { get; set; }
+        public DbSet<Potions> Potions { get; set; }
+        public DbSet<Inventory> Inventory { get; set; }
+        public DbSet<StoreInventory> StoreInventories { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             if (!options.IsConfigured)
             {
-                options.UseSqlite("Data Source=blogging.db");
+                options.UseSqlite("Data Source=TheSleepingSelkie.db");
             }
         }
 

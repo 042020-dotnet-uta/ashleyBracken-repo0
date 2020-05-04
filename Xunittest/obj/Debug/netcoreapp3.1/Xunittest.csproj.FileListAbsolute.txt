@@ -138,3 +138,4 @@ C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Xunittest\obj
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Xunittest\obj\Debug\netcoreapp3.1\Xunittest.dll
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Xunittest\obj\Debug\netcoreapp3.1\Xunittest.pdb
 C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Xunittest\obj\Debug\netcoreapp3.1\Xunittest.genruntimeconfig.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\Xunittest\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll

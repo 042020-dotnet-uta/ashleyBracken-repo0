@@ -25,9 +25,13 @@ namespace Project_0
                 Console.WriteLine("Please Enter Your Last Name");
                 lastNameHolder = Console.ReadLine().ToUpper();
             }
+            while (string.IsNullOrWhiteSpace(custID))
+            {
+                Console.WriteLine("Please Enter Your Phone Number");
+                custID = Console.ReadLine().ToUpper();
+            }
             newCustomer.FirstName = firstNameHolder;
             newCustomer.LastName = lastNameHolder;
-            custID = firstNameHolder + lastNameHolder;
             newCustomer.CustomerID = custID;
             nCust = newCustomer;
             

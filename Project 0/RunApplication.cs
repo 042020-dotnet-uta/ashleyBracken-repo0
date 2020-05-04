@@ -6,34 +6,54 @@ using System.Text;
 
 namespace Project_0
 {
-   public  class RunApplication 
+    public static class RunApplication
     {
-        private string add;
-        private string existing;
-        private string custInput;
-        
-        public void RunApp()
+        private static string add;
+        private static string existing;
+        private static string custInput;
+        private static bool storeChosen = false;
+        private static string newOrder;
+        private static string lookUpOrders;
+        public static bool StoreChosen { get => storeChosen; set => storeChosen = value; }
+        private static bool cusExists;
+        public static bool CusExists { get => cusExists; set => cusExists = value; }
+
+
+        public static void RunApp()
         {
-            
-            GetCustStatus();
-            if (custInput == add)
+            cusExists = false;
+           
+            if (storeChosen == true)
             {
-                Console.WriteLine("You have entered ADD");
-                AddCustomer.NewCustomer();
-                
+                Console.Clear();
+                NewOrderOrLookUP();
             }
-            else if (custInput == existing)
+            else GetCustStatus();
+            switch (custInput)
             {
-                Console.WriteLine("You Have entered EXISTING");
-            }
-            else
-            {
-                Console.WriteLine("You have not entered one of the options please enter againg");
-                RunApp();
+                case "ADD":
+                    Console.WriteLine("You have entered ADD");
+                    AddCustomer.NewCustomer();
+                    cusExists = false;
+                    Console.Clear();
+                    break;
+                case "EXISTING":
+                    Console.WriteLine("You Have entered EXISTING");
+                    cusExists = true;
+                    Console.Clear();
+                    break;
+                case "NEW":
+                    break;
+                case "LOOKUP":
+                    break;
+                default:
+                    Console.WriteLine("You have not entered one of the options please enter again");
+                    RunApp();
+                    break;
             }
         }
             
-        void GetCustStatus()
+        static void  GetCustStatus()
         {
             add = "ADD";
             existing = "EXISTING";
@@ -41,5 +61,15 @@ namespace Project_0
             Console.WriteLine("Type " + existing + " if you are an existing customer");
             custInput = Console.ReadLine().ToUpper();
         }
+
+        static void NewOrderOrLookUP()
+        {
+            newOrder = "NEW";
+            lookUpOrders = "LOOKUP";
+            Console.WriteLine("Type " + newOrder + " If you are wanting to place a new order with this store");
+            Console.WriteLine("Type " + lookUpOrders + " If you are wanting to look up previous orders");
+            custInput = Console.ReadLine().ToUpper();
+        }
+
     }
 }

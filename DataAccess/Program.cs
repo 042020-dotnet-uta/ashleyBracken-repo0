@@ -8,14 +8,28 @@ namespace DataAccess
 {
     class Program
     {
-       
-        static void Main(string[] args)
+        static void Main()
         {
-            RunApplication run = new RunApplication();
-            run.RunApp();
             AccessCustomer access = new AccessCustomer();
-            access.AddCusToDataBase();
-
+            RunApplication.RunApp();
+            if (RunApplication.CusExists == false)
+            {
+                access.AddCusToDataBase();
+            }
+            else
+            {
+                do
+                {
+                    GetCustLookupInfo.CustIDHolder = null;
+                    GetCustLookupInfo.GetCustID();
+                    Console.WriteLine("Looking for customer");
+                    if (GetCustLookupInfo.CustIDHolder != null)
+                    {
+                        access.LookUpCustFromDB();
+                    }
+                }
+                while (access.ExistingCustomer == null);
+            }
         }
     }
 }

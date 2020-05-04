@@ -1,0 +1,13 @@
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.exe
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.deps.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.runtimeconfig.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.runtimeconfig.dev.json
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\bin\Debug\netcoreapp3.1\CodingChallengeWeek3.pdb
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.csprojAssemblyReference.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.csproj.CoreCompileInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.AssemblyInfoInputs.cache
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.AssemblyInfo.cs
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.dll
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.pdb
+C:\Users\idont\Desktop\WorkStuffs\RevatureRepo\ashleyBracken-repo0\CodingChallengeWeek3\obj\Debug\netcoreapp3.1\CodingChallengeWeek3.genruntimeconfig.cache
