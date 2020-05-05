@@ -47,7 +47,6 @@ namespace Project_0
                     break;
                 case "NEW":
                     nOrder = true;
-                    NewOrder.PlaceNewOrder();
                     
                     break;
                 case "LOOKUP":

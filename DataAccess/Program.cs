@@ -26,11 +26,23 @@ namespace DataAccess
                     Console.WriteLine("Looking for customer");
                     if (GetCustLookupInfo.CustIDHolder != null)
                     {
-                        accessCus.LookUpCustFromDB();
+                        accessCus.LookUpCustFromDB();  
                     }    
                 }while (accessCus.ExistingCustomer == null);
             }
             #endregion
+            if (RunApplication.NOrder)
+            {
+                Console.WriteLine("Accessing store Inventory");
+                invAcc.GetStoreInventory();
+                NewOrder.NewOrderSetup();
+                AccessOrders orderAcc = new AccessOrders();
+                orderAcc.AddNewOrder();
+            }
+            else 
+            {
+               
+            }
         }
     }
 }

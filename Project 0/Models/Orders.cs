@@ -9,6 +9,7 @@ namespace Project_0.Models
     public class Order
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { get; set; }
         public Customer Customer { get; set; }
         public string CustomerID { get; set; }

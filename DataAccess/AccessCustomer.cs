@@ -25,6 +25,7 @@ namespace DataAccess
               
                     db.Add(AddCustomer.nCust);
                     db.SaveChanges();
+                NewOrder.StoreID = AddCustomer.nCust.StoreID;
                 NewOrder.custID = AddCustomer.nCust.CustomerID;
                 RunApplication.StoreChosen = true;
             }
@@ -35,18 +36,14 @@ namespace DataAccess
         internal void LookUpCustFromDB()
         {
             {
-                /// <summary>
                 /// setting existingCust(which is basically cur user to the customer that correlates with the customer ID entered by the user)
-                /// </summary>
                 using (var db = new DataBaseContext())
                 {
                     existingCust = db.Customers.Where(cust => cust.CustomerID == GetCustLookupInfo.CustIDHolder).FirstOrDefault();
                     store = db.Stores.Where(stores => stores.StoreID == existingCust.StoreID).FirstOrDefault();
                     try
                     {
-                        /// <summary>
                         /// trys to write a greeting for the returning customer, if it is properly assigned
-                        /// </summary>
                         Console.WriteLine("Welcome Back " + existingCust.FirstName);
                         if (existingCust.StoreID != 0)
                         {
@@ -58,6 +55,7 @@ namespace DataAccess
                             }
                             else
                             {
+                                NewOrder.StoreID = existingCust.StoreID;
                                 NewOrder.custID = existingCust.CustomerID;
                                 RunApplication.StoreChosen = true;
                                 RunApplication.RunApp();
@@ -70,6 +68,7 @@ namespace DataAccess
                             {
                                 existingCust.StoreID = Convert.ToInt32(GetCustLookupInfo.StoreNumber);
                                 db.SaveChanges();
+                                NewOrder.StoreID = existingCust.StoreID;
                                 NewOrder.custID = existingCust.CustomerID;
                                 RunApplication.StoreChosen = true;
                                 RunApplication.RunApp();

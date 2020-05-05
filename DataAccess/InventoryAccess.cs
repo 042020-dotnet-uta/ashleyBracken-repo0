@@ -31,6 +31,8 @@ namespace DataAccess
                 Console.WriteLine(staminaStock);
             }
             NewOrder.HealthInStock = healthStock;
+            NewOrder.ManaInStock = manaStock;
+            NewOrder.StaminaInStock = staminaStock;
  
         }
     }
