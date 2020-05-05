@@ -8,13 +8,15 @@ namespace Project_0
 {
    public static class AddCustomer
     {
-        private static Customer newCustomer = new Customer();
         public static Customer nCust { get; set; }
         private static string firstNameHolder;
         private static string lastNameHolder;
+        private static string preferredStore;
         private static string custID;
-       public static void NewCustomer()
+        private static Customer newCustomer = new Customer();
+        public static void NewCustomer()
         {
+             
             while (string.IsNullOrWhiteSpace(firstNameHolder) )
             {
                 Console.WriteLine("Please enter your first name");
@@ -30,9 +32,16 @@ namespace Project_0
                 Console.WriteLine("Please Enter Your Phone Number");
                 custID = Console.ReadLine().ToUpper();
             }
+            while (string.IsNullOrWhiteSpace(preferredStore))
+            {
+                Console.WriteLine("Please enter a preferred Store \n type 1 for Sleeping Selkie Primary Location" +
+                    "\n Type 2 for Sleeping Selking Location Two \n Type 3 fore Sleeping Selkie Location Three");
+                preferredStore = Console.ReadLine().ToUpper();
+            }
             newCustomer.FirstName = firstNameHolder;
             newCustomer.LastName = lastNameHolder;
             newCustomer.CustomerID = custID;
+            newCustomer.StoreID = Convert.ToInt32(preferredStore);
             nCust = newCustomer;
             
         }

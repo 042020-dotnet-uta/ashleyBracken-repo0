@@ -8,20 +8,6 @@ namespace DataAccess.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Customers",
-                columns: table => new
-                {
-                    CustomerID = table.Column<string>(nullable: false),
-                    FirstName = table.Column<string>(nullable: true),
-                    LastName = table.Column<string>(nullable: true),
-                    StoreID = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Customers", x => x.CustomerID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Potions",
                 columns: table => new
                 {
@@ -50,13 +36,32 @@ namespace DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Customers",
+                columns: table => new
+                {
+                    CustomerID = table.Column<string>(nullable: false),
+                    FirstName = table.Column<string>(nullable: true),
+                    LastName = table.Column<string>(nullable: true),
+                    StoreID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Customers", x => x.CustomerID);
+                    table.ForeignKey(
+                        name: "FK_Customers_Stores_StoreID",
+                        column: x => x.StoreID,
+                        principalTable: "Stores",
+                        principalColumn: "StoreID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Inventory",
                 columns: table => new
                 {
                     InventoryID = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     StoreID = table.Column<int>(nullable: false),
-                    PotionsPotionID = table.Column<int>(nullable: true),
                     PotionID = table.Column<int>(nullable: false),
                     PotionQuantity = table.Column<int>(nullable: false)
                 },
@@ -64,11 +69,11 @@ namespace DataAccess.Migrations
                 {
                     table.PrimaryKey("PK_Inventory", x => x.InventoryID);
                     table.ForeignKey(
-                        name: "FK_Inventory_Potions_PotionsPotionID",
-                        column: x => x.PotionsPotionID,
+                        name: "FK_Inventory_Potions_PotionID",
+                        column: x => x.PotionID,
                         principalTable: "Potions",
                         principalColumn: "PotionID",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Inventory_Stores_StoreID",
                         column: x => x.StoreID,
@@ -108,9 +113,14 @@ namespace DataAccess.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Inventory_PotionsPotionID",
+                name: "IX_Customers_StoreID",
+                table: "Customers",
+                column: "StoreID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Inventory_PotionID",
                 table: "Inventory",
-                column: "PotionsPotionID");
+                column: "PotionID");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Inventory_StoreID",

@@ -7,10 +7,12 @@ namespace Project_0.Models
 {
     public class Inventory
     {
+        [Key]
+        public int InventoryID { get; set; }
         public Store Store { get; set; }
         public int StoreID { get; set; }
-        public int InventoryID { get; set; }
-        public Potions Potions {get;set;}
+  
+        public Potions Potion {get;set;}
         public int PotionID { get; set;}
         public int PotionQuantity { get; set;}
 

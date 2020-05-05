@@ -22,9 +22,11 @@ namespace DataAccess
         {
             using (var db = new DataBaseContext())
             {
-                db.Add(AddCustomer.nCust);
-                db.SaveChanges();
-                RunApplication.RunApp();
+              
+                    db.Add(AddCustomer.nCust);
+                    db.SaveChanges();
+                NewOrder.custID = AddCustomer.nCust.CustomerID;
+                RunApplication.StoreChosen = true;
             }
         }
         /// <summary>
@@ -56,6 +58,7 @@ namespace DataAccess
                             }
                             else
                             {
+                                NewOrder.custID = existingCust.CustomerID;
                                 RunApplication.StoreChosen = true;
                                 RunApplication.RunApp();
                             }
@@ -67,6 +70,7 @@ namespace DataAccess
                             {
                                 existingCust.StoreID = Convert.ToInt32(GetCustLookupInfo.StoreNumber);
                                 db.SaveChanges();
+                                NewOrder.custID = existingCust.CustomerID;
                                 RunApplication.StoreChosen = true;
                                 RunApplication.RunApp();
                             }

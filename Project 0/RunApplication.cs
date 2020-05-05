@@ -15,6 +15,8 @@ namespace Project_0
         private static string newOrder;
         private static string lookUpOrders;
         public static bool StoreChosen { get => storeChosen; set => storeChosen = value; }
+        private static bool nOrder;
+        public static bool NOrder { get=>nOrder; set => nOrder = value; }
         private static bool cusExists;
         public static bool CusExists { get => cusExists; set => cusExists = value; }
 
@@ -22,6 +24,7 @@ namespace Project_0
         public static void RunApp()
         {
             cusExists = false;
+            nOrder = false;
            
             if (storeChosen == true)
             {
@@ -43,6 +46,9 @@ namespace Project_0
                     Console.Clear();
                     break;
                 case "NEW":
+                    nOrder = true;
+                    NewOrder.PlaceNewOrder();
+                    
                     break;
                 case "LOOKUP":
                     break;

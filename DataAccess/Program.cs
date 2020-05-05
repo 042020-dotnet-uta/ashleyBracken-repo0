@@ -10,26 +10,27 @@ namespace DataAccess
     {
         static void Main()
         {
-            AccessCustomer access = new AccessCustomer();
+            AccessCustomer accessCus = new AccessCustomer();
+            InventoryAccess invAcc = new InventoryAccess();
             RunApplication.RunApp();
+            #region Check whether to add customer to database or to lookup existing
             if (RunApplication.CusExists == false)
             {
-                access.AddCusToDataBase();
+                accessCus.AddCusToDataBase();
             }
-            else
+            else if (RunApplication.CusExists ==true )
             {
                 do
                 {
-                    GetCustLookupInfo.CustIDHolder = null;
                     GetCustLookupInfo.GetCustID();
                     Console.WriteLine("Looking for customer");
                     if (GetCustLookupInfo.CustIDHolder != null)
                     {
-                        access.LookUpCustFromDB();
-                    }
-                }
-                while (access.ExistingCustomer == null);
+                        accessCus.LookUpCustFromDB();
+                    }    
+                }while (accessCus.ExistingCustomer == null);
             }
+            #endregion
         }
     }
 }

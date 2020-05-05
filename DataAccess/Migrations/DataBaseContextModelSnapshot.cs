@@ -32,6 +32,8 @@ namespace DataAccess.Migrations
 
                     b.HasKey("CustomerID");
 
+                    b.HasIndex("StoreID");
+
                     b.ToTable("Customers");
                 });
 
@@ -47,15 +49,12 @@ namespace DataAccess.Migrations
                     b.Property<int>("PotionQuantity")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int?>("PotionsPotionID")
-                        .HasColumnType("INTEGER");
-
                     b.Property<int>("StoreID")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("InventoryID");
 
-                    b.HasIndex("PotionsPotionID");
+                    b.HasIndex("PotionID");
 
                     b.HasIndex("StoreID");
 
@@ -129,11 +128,22 @@ namespace DataAccess.Migrations
                     b.ToTable("Stores");
                 });
 
+            modelBuilder.Entity("Project_0.Models.Customer", b =>
+                {
+                    b.HasOne("Project_0.Models.Store", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Project_0.Models.Inventory", b =>
                 {
-                    b.HasOne("Project_0.Models.Potions", "Potions")
+                    b.HasOne("Project_0.Models.Potions", "Potion")
                         .WithMany()
-                        .HasForeignKey("PotionsPotionID");
+                        .HasForeignKey("PotionID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("Project_0.Models.Store", "Store")
                         .WithMany()

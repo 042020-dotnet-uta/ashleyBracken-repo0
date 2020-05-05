@@ -12,7 +12,7 @@ namespace Project_0.Models
         public string PotionName { get ; set; }
         public string PotionDescription { get ; set; }
         public int PotionPrice { get; set; }
-
+        public Potions() { }
 
     }
 }

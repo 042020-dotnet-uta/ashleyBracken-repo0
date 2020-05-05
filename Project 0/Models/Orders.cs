@@ -20,5 +20,6 @@ namespace Project_0.Models
 
         private DateTime date;
         public DateTime Date { get=>date; set=>date=value; }
+        public Order() { }
     }
 }
