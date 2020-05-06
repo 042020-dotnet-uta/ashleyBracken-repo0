@@ -5,8 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Project_0;
 using Project_0.Models;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+
 
 namespace DataAccess
 {
