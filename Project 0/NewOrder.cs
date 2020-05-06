@@ -132,6 +132,8 @@ namespace Project_0
                 curOrder.CustomerID = custID;
                 curOrder.StoreID = StoreID;
                 CurOrder = curOrder;
+                Console.WriteLine("Your current order is" + "\nDate" +curOrder.Date + "\nHealth Potions"+ curOrder.HealthPotionsBought +
+                    "\nMana Potions "+curOrder.ManaPotionsBought +"\nStamina Potions "+ curOrder.StaminaPotionsBought +"\nCustomer" +  curOrder.CustomerID +"\nStoreID" +  curOrder.StoreID);
             }
             #endregion
         }

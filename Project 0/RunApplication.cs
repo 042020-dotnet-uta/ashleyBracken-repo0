@@ -36,7 +36,7 @@ namespace Project_0
         /// </summary>
         public static void RunApp()
         {
-            Console.Clear();
+            //Console.Clear();
             #region Basic Set and checks
             // set inputs to null at the beginning of the app to prevent abnormal 
            custInput = null;
