@@ -5,6 +5,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Project_0.Models
 {
+    /// <summary>
+    /// This class declares the information that is used to make the customer table
+    /// </summary>
     public class Customer
     {
         [Key]

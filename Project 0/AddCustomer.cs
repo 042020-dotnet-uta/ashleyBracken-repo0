@@ -27,11 +27,12 @@ namespace Project_0
                 Console.WriteLine("Please Enter Your Last Name");
                 lastNameHolder = Console.ReadLine().ToUpper();
             }
+            /*
             while (string.IsNullOrWhiteSpace(custID))
             {
                 Console.WriteLine("Please Enter Your Phone Number");
                 custID = Console.ReadLine().ToUpper();
-            }
+            }*/
             while (string.IsNullOrWhiteSpace(preferredStore))
             {
                 Console.WriteLine("Please enter a preferred Store \n type 1 for Sleeping Selkie Primary Location" +
@@ -40,6 +41,8 @@ namespace Project_0
             }
             newCustomer.FirstName = firstNameHolder;
             newCustomer.LastName = lastNameHolder;
+            custID = firstNameHolder + lastNameHolder;
+            GetCustLookupInfo.CustIDHolder = custID;
             newCustomer.CustomerID = custID;
             newCustomer.StoreID = Convert.ToInt32(preferredStore);
             nCust = newCustomer;

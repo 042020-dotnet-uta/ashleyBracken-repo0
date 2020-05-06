@@ -4,7 +4,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Project_0.Models
-{
+{/// <summary>
+/// This class declares the and sets the information for the Potions tables
+/// </summary>
     public class Potions
     {
         [Key]
