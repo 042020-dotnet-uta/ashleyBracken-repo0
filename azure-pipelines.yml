@@ -16,7 +16,7 @@ stages:
         steps:
           - script: dotnet build 'Project 0/Project 0.csproj'
       - job: "test"
-        dependson: "build"
+        dependsOn: "build"
         steps:
           - script: dotnet test 'Xunittest/Xunittest.csproj'
 
