@@ -15,6 +15,9 @@ stages:
       - job: "build"
         steps:
           - script: dotnet build 'Project 0/Project 0.csproj'
+      - job: "test"
+        steps:
+          - script: dotnet test 'Xunittest/Xunittest.csproj'
 
 #steps:
 #- script: echo Hello, world!
