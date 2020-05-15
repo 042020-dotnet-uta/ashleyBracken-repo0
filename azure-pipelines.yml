@@ -17,7 +17,7 @@ stages:
           - script: dotnet test 'Xunittest/Xunittest.csproj'
   - stage: "Publish"
     jobs:
-      - job: "Publish"
+      - job: "Prepare"
         steps:
           - task: SonarCloudPrepare@1
             inputs:
@@ -27,5 +27,10 @@ stages:
               configMode: file
               projectKey: 'asrailuna'
               projectName: 'Project0'
+      - job: "Publish"
+        steps:
+          - task: SonarCloudAnalyze@1
+
+              
 
 
