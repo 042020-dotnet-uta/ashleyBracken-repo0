@@ -27,8 +27,6 @@ stages:
               configMode: file
               projectKey: 'asrailuna'
               projectName: 'Project0'
-      - job: "Publish"
-        steps:
           - task: SonarCloudAnalyze@1
 
               
