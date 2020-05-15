@@ -22,8 +22,7 @@ stages:
             inputs:
               SonarCloud: 'AzureDevOpsSonarCloud'
               organization: 'asrailuna'
-              scannerMode: 'CLI'
-              configMode: 'file'
+              scannerMode: 'Other'
           - task: SonarCloudAnalyze@1
         
 
