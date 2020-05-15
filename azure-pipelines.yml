@@ -15,8 +15,6 @@ stages:
         dependsOn: "build"
         steps:
           - script: dotnet test 'Xunittest/Xunittest.csproj'
-  - stage: "Publish"
-    jobs:
       - job: "Prepare"
         steps:
           - task: SonarCloudPrepare@1
