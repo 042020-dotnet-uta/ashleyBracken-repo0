@@ -27,3 +27,4 @@ stages:
         steps:
           - script: dotnet test 'Xunittest/Xunittest.csproj'
 
+
