@@ -10,7 +10,7 @@ stages:
     jobs:
       - job: "build"
         steps:
-          - script: dotnet build 'Project 0/Project 0.csproj'
+          - script: dotnet build 'Project 0/Project 0.sln'
       - job: "test"
         dependsOn: "build"
         steps:
